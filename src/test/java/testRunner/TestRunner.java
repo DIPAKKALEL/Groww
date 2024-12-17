@@ -10,6 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 				glue = {"StepDefination"}, 
 				tags = ("@GrowwLogin"), 
 				monochrome = true, 
+				publish =true,
 				dryRun = true, 
 				plugin = { "pretty",
 				"json:target/cucumber.json", })

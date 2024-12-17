@@ -2,7 +2,6 @@
 Feature: Login to the  web application
   Login to the Groww application with valid credentials
   
-  
   @Login
   Scenario: Login to the web application with valid credentials
     Given I navigate to the web application "https://groww.in/login"
